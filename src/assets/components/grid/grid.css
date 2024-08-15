@@ -1,0 +1,26 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 400px;
+    height: 315px;
+    justify-content: space-between;
+
+}
+.turn-highlight{
+    color: white;
+}
+.winner{
+    color: white;
+}
+.reset{
+    padding: 1rem;
+    color: white;
+    background-color: #28a7;
+    border-radius: 10px;
+    border: none;
+
+}
+.grid-wrapper{
+    max-width: 600px;
+}
